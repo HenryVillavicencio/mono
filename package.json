@@ -1,0 +1,17 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "co": "sui-mono commit"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "@s-ui/mono": "2.38.0"
+  }
+}
