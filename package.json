@@ -5,7 +5,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "co": "sui-mono commit"
+    "co": "sui-mono commit",
+    "check": "sui-mono check",
+    "release": "sui-mono release"
   },
   "workspaces": [
     "packages/*",
